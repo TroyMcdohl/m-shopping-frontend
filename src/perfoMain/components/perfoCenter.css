@@ -1,0 +1,83 @@
+.perfoCenter_container {
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.perfoCenter_main_title {
+  margin: 0;
+}
+
+.perfoCenter_main_t {
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 300px;
+}
+
+.perfoCenter_wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.perfoCenter_left {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.perfoCenter_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: rotater 2s infinite;
+}
+
+@keyframes rotater {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.perfoCenter_right {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.perfoCenter_title {
+  font-size: 25px;
+  font-weight: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.perfoCenter_logoes {
+  display: flex;
+  margin: 5px;
+}
+
+.perfoCenter_logo {
+  margin: 30px;
+}
+
+@media (max-width: 760px) {
+  .perfoCenter_wrapper {
+    flex-direction: column;
+    height: 80%;
+  }
+}

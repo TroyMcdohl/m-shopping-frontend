@@ -1,0 +1,52 @@
+.form_container {
+  height: calc(100vh - 60px);
+}
+
+.form_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.form_title {
+  font-size: 25px;
+}
+
+.form_fact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.form_label {
+  font-size: 20px;
+  font-weight: 200px;
+  margin-bottom: 15px;
+}
+
+.form_input {
+  border: none;
+  border-bottom: 1px solid blue;
+  background-color: transparent;
+  outline: none;
+  color: gold;
+  font-size: 18px;
+}
+
+.form_btn {
+  display: flex;
+  margin: 35px;
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}

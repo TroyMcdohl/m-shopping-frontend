@@ -1,0 +1,116 @@
+.perfobot_container {
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.perfobot_title {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.perfobot_wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.perfobot_left {
+  flex: 6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfobot_left_des {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfobot_left_contact {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.perfobot_right {
+  flex: 6;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.perfobot_right_container {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  overflow: hidden;
+}
+
+.perfobot_right_wrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfobot_right_card {
+  height: 90%;
+  display: flex;
+
+  width: 100%;
+}
+
+.perfobot_right_img {
+  width: 100%;
+  height: 80%;
+}
+
+.perfobot_left_arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.perfobot_right_arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999;
+}
+
+@media (max-width: 760px) {
+  .perfobot_wrapper {
+    flex-direction: column;
+  }
+
+  .perfobot_right_img {
+    width: 470px;
+    height: 80%;
+  }
+}
