@@ -52,7 +52,7 @@ const PerfoBot = () => {
 
                 <SwiperSlide>
                   <div className="perfobot_right_wrapper">
-                    <a href={"https://mern-shopping.herokuapp.com/"}>
+                    <a href={"https://mern-shopping-ui.herokuapp.com/"}>
                       <div className="perfobot_right_card">
                         <img
                           src={require("../../outsideImg/shop.PNG")}
